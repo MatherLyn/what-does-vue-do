@@ -53,6 +53,7 @@ export default class Compiler {
             }
         }
     }
+    
     constructor (el: any, vm: MVVM) {
         this.el = this.isElementNode(el) ? el : document.querySelector(el)
         this.vm = vm
